@@ -22,7 +22,7 @@ CREATE TABLE bronze.crm_cust_info
 	cst_key NVARCHAR(50),
 	cst_firstname NVARCHAR(50),
 	cst_lastname NVARCHAR(50),
-	cst_material_status NVARCHAR(50),
+	cst_marital_status NVARCHAR(50),
 	cst_gndr NVARCHAR(50),
 	cst_create_date DATE
 );
@@ -66,7 +66,7 @@ CREATE TABLE bronze.crm_sales_details
 );
 
 
---------------------------------------------
+------------------------
 -- Source System: ERP .csv files
 
 -- Table:bronze.erp_loc_a101
@@ -109,3 +109,4 @@ CREATE TABLE bronze.erp_px_cat_g1v2
 	maintenance NVARCHAR(50),
 );
 GO
+
