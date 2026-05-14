@@ -1,4 +1,4 @@
-# Data Catalog: Gold Layer
+# Data Catalog for Gold Layer
 
 ## Overview
 The **Gold Layer** represents the business-level data tier, structured specifically to support advanced analytics, business intelligence, and reporting. Data in this layer is typically modeled using a Star Schema or Snowflake Schema, consisting of optimized dimension and fact tables.
